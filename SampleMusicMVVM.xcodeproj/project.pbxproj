@@ -9,13 +9,22 @@
 /* Begin PBXBuildFile section */
 		FC32EF5329091F2400F09C70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32EF5229091F2400F09C70 /* AppDelegate.swift */; };
 		FC32EF5529091F2400F09C70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32EF5429091F2400F09C70 /* SceneDelegate.swift */; };
-		FC32EF5729091F2400F09C70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32EF5629091F2400F09C70 /* ViewController.swift */; };
-		FC32EF5A29091F2400F09C70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC32EF5829091F2400F09C70 /* Main.storyboard */; };
 		FC32EF5C29091F2500F09C70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC32EF5B29091F2500F09C70 /* Assets.xcassets */; };
 		FC32EF5F29091F2500F09C70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC32EF5D29091F2500F09C70 /* LaunchScreen.storyboard */; };
 		FC32EF6A29091F2500F09C70 /* SampleMusicMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32EF6929091F2500F09C70 /* SampleMusicMVVMTests.swift */; };
 		FC32EF7429091F2500F09C70 /* SampleMusicMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32EF7329091F2500F09C70 /* SampleMusicMVVMUITests.swift */; };
 		FC32EF7629091F2500F09C70 /* SampleMusicMVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32EF7529091F2500F09C70 /* SampleMusicMVVMUITestsLaunchTests.swift */; };
+		FC32EF842909201200F09C70 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = FC32EF832909201200F09C70 /* RxCocoa */; };
+		FC32EF862909201200F09C70 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = FC32EF852909201200F09C70 /* RxRelay */; };
+		FC32EF882909201200F09C70 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FC32EF872909201200F09C70 /* RxSwift */; };
+		FC32EF8B290922D600F09C70 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FC32EF8A290922D600F09C70 /* FirebaseAuth */; };
+		FC32EF8D290922D600F09C70 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FC32EF8C290922D600F09C70 /* FirebaseFirestore */; };
+		FC32EF8F290922D600F09C70 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FC32EF8E290922D600F09C70 /* FirebaseFirestoreSwift */; };
+		FC32EF91290922D600F09C70 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = FC32EF90290922D600F09C70 /* FirebaseStorage */; };
+		FC32EF942909238900F09C70 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = FC32EF932909238900F09C70 /* SDWebImage */; };
+		FC32EF982909251900F09C70 /* SearchMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32EF972909251900F09C70 /* SearchMusicViewController.swift */; };
+		FC5E4BB329092C0C00FAB992 /* SearchMusic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5E4BB229092C0C00FAB992 /* SearchMusic.storyboard */; };
+		FC5E4BB529092C7A00FAB992 /* SearchMusicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E4BB429092C7A00FAB992 /* SearchMusicViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +48,6 @@
 		FC32EF4F29091F2400F09C70 /* SampleMusicMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleMusicMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC32EF5229091F2400F09C70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC32EF5429091F2400F09C70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FC32EF5629091F2400F09C70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FC32EF5929091F2400F09C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC32EF5B29091F2500F09C70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC32EF5E29091F2500F09C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC32EF6029091F2500F09C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +56,9 @@
 		FC32EF6F29091F2500F09C70 /* SampleMusicMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleMusicMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC32EF7329091F2500F09C70 /* SampleMusicMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleMusicMVVMUITests.swift; sourceTree = "<group>"; };
 		FC32EF7529091F2500F09C70 /* SampleMusicMVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleMusicMVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FC32EF972909251900F09C70 /* SearchMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMusicViewController.swift; sourceTree = "<group>"; };
+		FC5E4BB229092C0C00FAB992 /* SearchMusic.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchMusic.storyboard; sourceTree = "<group>"; };
+		FC5E4BB429092C7A00FAB992 /* SearchMusicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMusicViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC32EF882909201200F09C70 /* RxSwift in Frameworks */,
+				FC32EF862909201200F09C70 /* RxRelay in Frameworks */,
+				FC32EF942909238900F09C70 /* SDWebImage in Frameworks */,
+				FC32EF842909201200F09C70 /* RxCocoa in Frameworks */,
+				FC32EF8D290922D600F09C70 /* FirebaseFirestore in Frameworks */,
+				FC32EF91290922D600F09C70 /* FirebaseStorage in Frameworks */,
+				FC32EF8B290922D600F09C70 /* FirebaseAuth in Frameworks */,
+				FC32EF8F290922D600F09C70 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,8 +119,10 @@
 			children = (
 				FC32EF5229091F2400F09C70 /* AppDelegate.swift */,
 				FC32EF5429091F2400F09C70 /* SceneDelegate.swift */,
-				FC32EF5629091F2400F09C70 /* ViewController.swift */,
-				FC32EF5829091F2400F09C70 /* Main.storyboard */,
+				FC32EF9929092B4B00F09C70 /* Model */,
+				FC32EF9B29092B7300F09C70 /* View */,
+				FC32EF9A29092B5800F09C70 /* ViewModel */,
+				FC32EF9C29092B8100F09C70 /* Utility */,
 				FC32EF5B29091F2500F09C70 /* Assets.xcassets */,
 				FC32EF5D29091F2500F09C70 /* LaunchScreen.storyboard */,
 				FC32EF6029091F2500F09C70 /* Info.plist */,
@@ -127,6 +147,37 @@
 			path = SampleMusicMVVMUITests;
 			sourceTree = "<group>";
 		};
+		FC32EF9929092B4B00F09C70 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC32EF9A29092B5800F09C70 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FC5E4BB429092C7A00FAB992 /* SearchMusicViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FC32EF9B29092B7300F09C70 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC5E4BB229092C0C00FAB992 /* SearchMusic.storyboard */,
+				FC32EF972909251900F09C70 /* SearchMusicViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC32EF9C29092B8100F09C70 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +194,16 @@
 			dependencies = (
 			);
 			name = SampleMusicMVVM;
+			packageProductDependencies = (
+				FC32EF832909201200F09C70 /* RxCocoa */,
+				FC32EF852909201200F09C70 /* RxRelay */,
+				FC32EF872909201200F09C70 /* RxSwift */,
+				FC32EF8A290922D600F09C70 /* FirebaseAuth */,
+				FC32EF8C290922D600F09C70 /* FirebaseFirestore */,
+				FC32EF8E290922D600F09C70 /* FirebaseFirestoreSwift */,
+				FC32EF90290922D600F09C70 /* FirebaseStorage */,
+				FC32EF932909238900F09C70 /* SDWebImage */,
+			);
 			productName = SampleMusicMVVM;
 			productReference = FC32EF4F29091F2400F09C70 /* SampleMusicMVVM.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +276,11 @@
 				Base,
 			);
 			mainGroup = FC32EF4629091F2400F09C70;
+			packageReferences = (
+				FC32EF822909201200F09C70 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				FC32EF89290922D600F09C70 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				FC32EF922909238900F09C70 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = FC32EF5029091F2400F09C70 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,9 +297,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC5E4BB329092C0C00FAB992 /* SearchMusic.storyboard in Resources */,
 				FC32EF5F29091F2500F09C70 /* LaunchScreen.storyboard in Resources */,
 				FC32EF5C29091F2500F09C70 /* Assets.xcassets in Resources */,
-				FC32EF5A29091F2400F09C70 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +324,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC32EF5729091F2400F09C70 /* ViewController.swift in Sources */,
+				FC5E4BB529092C7A00FAB992 /* SearchMusicViewModel.swift in Sources */,
+				FC32EF982909251900F09C70 /* SearchMusicViewController.swift in Sources */,
 				FC32EF5329091F2400F09C70 /* AppDelegate.swift in Sources */,
 				FC32EF5529091F2400F09C70 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +364,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FC32EF5829091F2400F09C70 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC32EF5929091F2400F09C70 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FC32EF5D29091F2500F09C70 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,9 +501,7 @@
 				INFOPLIST_FILE = SampleMusicMVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,9 +527,7 @@
 				INFOPLIST_FILE = SampleMusicMVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -602,6 +657,76 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FC32EF822909201200F09C70 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		FC32EF89290922D600F09C70 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		FC32EF922909238900F09C70 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.13.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FC32EF832909201200F09C70 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC32EF822909201200F09C70 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		FC32EF852909201200F09C70 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC32EF822909201200F09C70 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		FC32EF872909201200F09C70 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC32EF822909201200F09C70 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		FC32EF8A290922D600F09C70 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC32EF89290922D600F09C70 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		FC32EF8C290922D600F09C70 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC32EF89290922D600F09C70 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		FC32EF8E290922D600F09C70 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC32EF89290922D600F09C70 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		FC32EF90290922D600F09C70 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC32EF89290922D600F09C70 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		FC32EF932909238900F09C70 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC32EF922909238900F09C70 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FC32EF4729091F2400F09C70 /* Project object */;
 }
